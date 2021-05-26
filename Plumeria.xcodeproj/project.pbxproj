@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9230C48265E5C8500C7F679 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9230C47265E5C8500C7F679 /* AppDelegate.swift */; };
+		D9230C4A265E5C8500C7F679 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D9230C49265E5C8500C7F679 /* art.scnassets */; };
+		D9230C4C265E5C8500C7F679 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9230C4B265E5C8500C7F679 /* ViewController.swift */; };
+		D9230C4F265E5C8500C7F679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9230C4D265E5C8500C7F679 /* Main.storyboard */; };
+		D9230C51265E5C8800C7F679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9230C50265E5C8800C7F679 /* Assets.xcassets */; };
+		D9230C54265E5C8800C7F679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9230C52265E5C8800C7F679 /* LaunchScreen.storyboard */; };
+		D9230C5F265E5C8800C7F679 /* PlumeriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9230C5E265E5C8800C7F679 /* PlumeriaTests.swift */; };
+		D9230C6A265E5C8800C7F679 /* PlumeriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9230C69265E5C8800C7F679 /* PlumeriaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9230C5B265E5C8800C7F679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9230C3C265E5C8500C7F679 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9230C43265E5C8500C7F679;
+			remoteInfo = Plumeria;
+		};
+		D9230C66265E5C8800C7F679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9230C3C265E5C8500C7F679 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9230C43265E5C8500C7F679;
+			remoteInfo = Plumeria;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9230C44265E5C8500C7F679 /* Plumeria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plumeria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9230C47265E5C8500C7F679 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9230C49265E5C8500C7F679 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		D9230C4B265E5C8500C7F679 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9230C4E265E5C8500C7F679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9230C50265E5C8800C7F679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9230C53265E5C8800C7F679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9230C55265E5C8800C7F679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9230C5A265E5C8800C7F679 /* PlumeriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlumeriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9230C5E265E5C8800C7F679 /* PlumeriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlumeriaTests.swift; sourceTree = "<group>"; };
+		D9230C60265E5C8800C7F679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9230C65265E5C8800C7F679 /* PlumeriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlumeriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9230C69265E5C8800C7F679 /* PlumeriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlumeriaUITests.swift; sourceTree = "<group>"; };
+		D9230C6B265E5C8800C7F679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9230C41265E5C8500C7F679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9230C57265E5C8800C7F679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9230C62265E5C8800C7F679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9230C3B265E5C8500C7F679 = {
+			isa = PBXGroup;
+			children = (
+				D9230C46265E5C8500C7F679 /* Plumeria */,
+				D9230C5D265E5C8800C7F679 /* PlumeriaTests */,
+				D9230C68265E5C8800C7F679 /* PlumeriaUITests */,
+				D9230C45265E5C8500C7F679 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9230C45265E5C8500C7F679 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9230C44265E5C8500C7F679 /* Plumeria.app */,
+				D9230C5A265E5C8800C7F679 /* PlumeriaTests.xctest */,
+				D9230C65265E5C8800C7F679 /* PlumeriaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9230C46265E5C8500C7F679 /* Plumeria */ = {
+			isa = PBXGroup;
+			children = (
+				D9230C47265E5C8500C7F679 /* AppDelegate.swift */,
+				D9230C49265E5C8500C7F679 /* art.scnassets */,
+				D9230C4B265E5C8500C7F679 /* ViewController.swift */,
+				D9230C4D265E5C8500C7F679 /* Main.storyboard */,
+				D9230C50265E5C8800C7F679 /* Assets.xcassets */,
+				D9230C52265E5C8800C7F679 /* LaunchScreen.storyboard */,
+				D9230C55265E5C8800C7F679 /* Info.plist */,
+			);
+			path = Plumeria;
+			sourceTree = "<group>";
+		};
+		D9230C5D265E5C8800C7F679 /* PlumeriaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9230C5E265E5C8800C7F679 /* PlumeriaTests.swift */,
+				D9230C60265E5C8800C7F679 /* Info.plist */,
+			);
+			path = PlumeriaTests;
+			sourceTree = "<group>";
+		};
+		D9230C68265E5C8800C7F679 /* PlumeriaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9230C69265E5C8800C7F679 /* PlumeriaUITests.swift */,
+				D9230C6B265E5C8800C7F679 /* Info.plist */,
+			);
+			path = PlumeriaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9230C43265E5C8500C7F679 /* Plumeria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9230C6E265E5C8800C7F679 /* Build configuration list for PBXNativeTarget "Plumeria" */;
+			buildPhases = (
+				D9230C40265E5C8500C7F679 /* Sources */,
+				D9230C41265E5C8500C7F679 /* Frameworks */,
+				D9230C42265E5C8500C7F679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Plumeria;
+			productName = Plumeria;
+			productReference = D9230C44265E5C8500C7F679 /* Plumeria.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9230C59265E5C8800C7F679 /* PlumeriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9230C71265E5C8800C7F679 /* Build configuration list for PBXNativeTarget "PlumeriaTests" */;
+			buildPhases = (
+				D9230C56265E5C8800C7F679 /* Sources */,
+				D9230C57265E5C8800C7F679 /* Frameworks */,
+				D9230C58265E5C8800C7F679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9230C5C265E5C8800C7F679 /* PBXTargetDependency */,
+			);
+			name = PlumeriaTests;
+			productName = PlumeriaTests;
+			productReference = D9230C5A265E5C8800C7F679 /* PlumeriaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9230C64265E5C8800C7F679 /* PlumeriaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9230C74265E5C8800C7F679 /* Build configuration list for PBXNativeTarget "PlumeriaUITests" */;
+			buildPhases = (
+				D9230C61265E5C8800C7F679 /* Sources */,
+				D9230C62265E5C8800C7F679 /* Frameworks */,
+				D9230C63265E5C8800C7F679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9230C67265E5C8800C7F679 /* PBXTargetDependency */,
+			);
+			name = PlumeriaUITests;
+			productName = PlumeriaUITests;
+			productReference = D9230C65265E5C8800C7F679 /* PlumeriaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9230C3C265E5C8500C7F679 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D9230C43265E5C8500C7F679 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					D9230C59265E5C8800C7F679 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D9230C43265E5C8500C7F679;
+					};
+					D9230C64265E5C8800C7F679 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D9230C43265E5C8500C7F679;
+					};
+				};
+			};
+			buildConfigurationList = D9230C3F265E5C8500C7F679 /* Build configuration list for PBXProject "Plumeria" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9230C3B265E5C8500C7F679;
+			productRefGroup = D9230C45265E5C8500C7F679 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9230C43265E5C8500C7F679 /* Plumeria */,
+				D9230C59265E5C8800C7F679 /* PlumeriaTests */,
+				D9230C64265E5C8800C7F679 /* PlumeriaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9230C42265E5C8500C7F679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9230C4A265E5C8500C7F679 /* art.scnassets in Resources */,
+				D9230C54265E5C8800C7F679 /* LaunchScreen.storyboard in Resources */,
+				D9230C51265E5C8800C7F679 /* Assets.xcassets in Resources */,
+				D9230C4F265E5C8500C7F679 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9230C58265E5C8800C7F679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9230C63265E5C8800C7F679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9230C40265E5C8500C7F679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9230C4C265E5C8500C7F679 /* ViewController.swift in Sources */,
+				D9230C48265E5C8500C7F679 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9230C56265E5C8800C7F679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9230C5F265E5C8800C7F679 /* PlumeriaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9230C61265E5C8800C7F679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9230C6A265E5C8800C7F679 /* PlumeriaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9230C5C265E5C8800C7F679 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9230C43265E5C8500C7F679 /* Plumeria */;
+			targetProxy = D9230C5B265E5C8800C7F679 /* PBXContainerItemProxy */;
+		};
+		D9230C67265E5C8800C7F679 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9230C43265E5C8500C7F679 /* Plumeria */;
+			targetProxy = D9230C66265E5C8800C7F679 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9230C4D265E5C8500C7F679 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9230C4E265E5C8500C7F679 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9230C52265E5C8800C7F679 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9230C53265E5C8800C7F679 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9230C6C265E5C8800C7F679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9230C6D265E5C8800C7F679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9230C6F265E5C8800C7F679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KD57B42JRX;
+				INFOPLIST_FILE = Plumeria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomon9086.apps.Plumeria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9230C70265E5C8800C7F679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KD57B42JRX;
+				INFOPLIST_FILE = Plumeria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomon9086.apps.Plumeria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9230C72265E5C8800C7F679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KD57B42JRX;
+				INFOPLIST_FILE = PlumeriaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomon9086.apps.PlumeriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plumeria.app/Plumeria";
+			};
+			name = Debug;
+		};
+		D9230C73265E5C8800C7F679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KD57B42JRX;
+				INFOPLIST_FILE = PlumeriaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomon9086.apps.PlumeriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plumeria.app/Plumeria";
+			};
+			name = Release;
+		};
+		D9230C75265E5C8800C7F679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KD57B42JRX;
+				INFOPLIST_FILE = PlumeriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomon9086.apps.PlumeriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Plumeria;
+			};
+			name = Debug;
+		};
+		D9230C76265E5C8800C7F679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KD57B42JRX;
+				INFOPLIST_FILE = PlumeriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomon9086.apps.PlumeriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Plumeria;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9230C3F265E5C8500C7F679 /* Build configuration list for PBXProject "Plumeria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9230C6C265E5C8800C7F679 /* Debug */,
+				D9230C6D265E5C8800C7F679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9230C6E265E5C8800C7F679 /* Build configuration list for PBXNativeTarget "Plumeria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9230C6F265E5C8800C7F679 /* Debug */,
+				D9230C70265E5C8800C7F679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9230C71265E5C8800C7F679 /* Build configuration list for PBXNativeTarget "PlumeriaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9230C72265E5C8800C7F679 /* Debug */,
+				D9230C73265E5C8800C7F679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9230C74265E5C8800C7F679 /* Build configuration list for PBXNativeTarget "PlumeriaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9230C75265E5C8800C7F679 /* Debug */,
+				D9230C76265E5C8800C7F679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9230C3C265E5C8500C7F679 /* Project object */;
+}
