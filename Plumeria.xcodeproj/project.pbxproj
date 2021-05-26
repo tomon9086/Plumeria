@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		D9230C48265E5C8500C7F679 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9230C47265E5C8500C7F679 /* AppDelegate.swift */; };
-		D9230C4A265E5C8500C7F679 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D9230C49265E5C8500C7F679 /* art.scnassets */; };
 		D9230C4C265E5C8500C7F679 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9230C4B265E5C8500C7F679 /* ViewController.swift */; };
 		D9230C4F265E5C8500C7F679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9230C4D265E5C8500C7F679 /* Main.storyboard */; };
 		D9230C51265E5C8800C7F679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9230C50265E5C8800C7F679 /* Assets.xcassets */; };
 		D9230C54265E5C8800C7F679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9230C52265E5C8800C7F679 /* LaunchScreen.storyboard */; };
 		D9230C5F265E5C8800C7F679 /* PlumeriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9230C5E265E5C8800C7F679 /* PlumeriaTests.swift */; };
 		D9230C6A265E5C8800C7F679 /* PlumeriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9230C69265E5C8800C7F679 /* PlumeriaUITests.swift */; };
+		D9230C81265E90F400C7F679 /* VirtualFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9230C7D265E90F400C7F679 /* VirtualFace.swift */; };
+		D9230C82265E90F400C7F679 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9230C7E265E90F400C7F679 /* ViewController.swift */; };
+		D9E493DE26606C80007B170F /* VirtualContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E493DD26606C80007B170F /* VirtualContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,7 @@
 /* Begin PBXFileReference section */
 		D9230C44265E5C8500C7F679 /* Plumeria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plumeria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9230C47265E5C8500C7F679 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9230C49265E5C8500C7F679 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		D9230C4B265E5C8500C7F679 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9230C4B265E5C8500C7F679 /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
 		D9230C4E265E5C8500C7F679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9230C50265E5C8800C7F679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9230C53265E5C8800C7F679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		D9230C65265E5C8800C7F679 /* PlumeriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlumeriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9230C69265E5C8800C7F679 /* PlumeriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlumeriaUITests.swift; sourceTree = "<group>"; };
 		D9230C6B265E5C8800C7F679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9230C7D265E90F400C7F679 /* VirtualFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualFace.swift; sourceTree = "<group>"; };
+		D9230C7E265E90F400C7F679 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9E493DD26606C80007B170F /* VirtualContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,9 @@
 		D9230C46265E5C8500C7F679 /* Plumeria */ = {
 			isa = PBXGroup;
 			children = (
+				D9E4939E265F377E007B170F /* Face */,
+				D9230C7E265E90F400C7F679 /* ViewController.swift */,
 				D9230C47265E5C8500C7F679 /* AppDelegate.swift */,
-				D9230C49265E5C8500C7F679 /* art.scnassets */,
 				D9230C4B265E5C8500C7F679 /* ViewController.swift */,
 				D9230C4D265E5C8500C7F679 /* Main.storyboard */,
 				D9230C50265E5C8800C7F679 /* Assets.xcassets */,
@@ -126,6 +131,15 @@
 				D9230C6B265E5C8800C7F679 /* Info.plist */,
 			);
 			path = PlumeriaUITests;
+			sourceTree = "<group>";
+		};
+		D9E4939E265F377E007B170F /* Face */ = {
+			isa = PBXGroup;
+			children = (
+				D9230C7D265E90F400C7F679 /* VirtualFace.swift */,
+				D9E493DD26606C80007B170F /* VirtualContent.swift */,
+			);
+			path = Face;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9230C4A265E5C8500C7F679 /* art.scnassets in Resources */,
 				D9230C54265E5C8800C7F679 /* LaunchScreen.storyboard in Resources */,
 				D9230C51265E5C8800C7F679 /* Assets.xcassets in Resources */,
 				D9230C4F265E5C8500C7F679 /* Main.storyboard in Resources */,
@@ -260,7 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9230C4C265E5C8500C7F679 /* ViewController.swift in Sources */,
+				D9E493DE26606C80007B170F /* VirtualContent.swift in Sources */,
 				D9230C48265E5C8500C7F679 /* AppDelegate.swift in Sources */,
+				D9230C82265E90F400C7F679 /* ViewController.swift in Sources */,
+				D9230C81265E90F400C7F679 /* VirtualFace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KD57B42JRX;
 				INFOPLIST_FILE = Plumeria/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +475,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KD57B42JRX;
 				INFOPLIST_FILE = Plumeria/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
